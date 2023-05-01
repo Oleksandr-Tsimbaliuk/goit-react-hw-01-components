@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import {
   StatisticsCard,
   StatisticsTitle,
@@ -24,4 +25,9 @@ export const Statistics = ({ title, stats }) => {
       </StatisticsList>
     </StatisticsCard>
   );
+};
+
+Statistics.propTypes = {
+  title: PropTypes.string.isRequired,
+  stats: PropTypes.number.isRequired,
 };
