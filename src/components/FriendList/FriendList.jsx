@@ -1,0 +1,21 @@
+import { FriendListItem } from 'components/FriendListItem/FriendListItem';
+import { List } from './FriendList.styled';
+
+export const FriendList = ({ friends }) => {
+  console.log(friends);
+
+  return (
+    <List>
+      {friends.map(({ name, avatar, isOnline, id }) => {
+        return (
+          <FriendListItem
+            key={id}
+            name={name}
+            avatar={avatar}
+            status={isOnline}
+          />
+        );
+      })}
+    </List>
+  );
+};
