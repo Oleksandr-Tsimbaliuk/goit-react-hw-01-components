@@ -10,7 +10,7 @@ export const ProfileDescription = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 8px;
-  padding-top: 5px;
+  margin-top: 5px;
 `;
 export const UserAvatar = styled.img`
   width: 110px;

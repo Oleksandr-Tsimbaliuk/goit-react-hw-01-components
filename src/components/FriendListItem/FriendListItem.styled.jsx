@@ -1,9 +1,10 @@
 import styled from '@emotion/styled';
 // import theme from 'constants/theme'
 
-export const Item = styled.li``;
+export const Item = styled.li`
+  margin-top: 14px;
+`;
 export const Status = styled.span`
-  //   background-color: red;
   height: 10px;
   display: inline-block;
   width: 10px;
@@ -14,6 +15,8 @@ export const Status = styled.span`
   }};
 `;
 export const Avatar = styled.img``;
-export const Name = styled.p``;
-
-//
+export const Name = styled.p`
+  margin: 0;
+  margin-top: 14px;
+  text-align: center;
+`;

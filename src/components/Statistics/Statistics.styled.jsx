@@ -6,8 +6,8 @@ export const StatisticsCard = styled.section`
   height: 100%;
 `;
 export const StatisticsTitle = styled.h2`
-  border: 1px dashed;
-  margin: 0;
+    border-bottom: 1px dashed;
+    margin: 0;
     display: flex;
     margin: 0;
     align-items: center;
