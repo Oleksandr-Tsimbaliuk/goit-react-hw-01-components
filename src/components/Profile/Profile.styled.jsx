@@ -13,7 +13,7 @@ export const ProfileDescription = styled.div`
   margin-top: 5px;
 `;
 export const UserAvatar = styled.img`
-  width: 110px;
+  // width: 110px;
 `;
 export const UserName = styled.p`
   margin: 0;

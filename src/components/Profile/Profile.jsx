@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import { imgSize } from 'constants/imgSize';
 import {
   ProfileCard,
   ProfileDescription,
@@ -16,7 +17,7 @@ export const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
     <ProfileCard>
       <ProfileDescription>
-        <UserAvatar src={avatar} alt="User avatar" />
+        <UserAvatar src={avatar} alt="User avatar" width={imgSize.md.width} />
         <UserName>{username}</UserName>
         <UserTag>{tag}</UserTag>
         <UserLocation>{location}</UserLocation>
